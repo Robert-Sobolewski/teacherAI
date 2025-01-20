@@ -1,0 +1,24 @@
+
+
+### test hello endpoint
+GET http://localhost:8081/hello
+
+### test chat endpoint
+POST http://localhost:8081/chat
+Content-Type: application/json
+
+{
+    "language":"german",
+    "level": "beginner",
+    "userPrompt": "dankeschon mir geht gut, und du? "
+}
+
+### test chat endpoint
+POST http://localhost:8081/chat
+Content-Type: application/json
+
+{
+    "language":"english",
+    "level": "intermediate",
+    "userPrompt": "whats your name "
+}

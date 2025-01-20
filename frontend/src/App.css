@@ -1,0 +1,13 @@
+body{
+    padding: 1rem;
+}
+.message{
+    
+}
+section{
+    flex:0.4;
+}
+article{
+    display: flex;
+    gap:0.5rem;
+}
